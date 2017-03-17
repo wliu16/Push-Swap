@@ -2,9 +2,9 @@
 
 create 2 programs: checker and push_swap
 
-checker: run with ./checker n1 n2 .. nn or ./checker "n1 n2 ... nn", and take operations input in standard input. Display error, ko (operations didn't sort ints in a) and ok(operations sorted ints in a).
+checker: run with ./checker [list of integers]   or   ./checker "[list of integers]"  , and take operations input in standard input. Display error, ko (operations didn't sort intergers in a) and ok (operations sorted intergers in a).
 
-push_swap: run with ./push_swap n1 n2 ... nn or ./push_swap "n1 n2 ... nn", and show operations that sorted the numbers
+push_swap: run with ./push_swap [list of integers]   or   ./push_swap "[list of integers]"  , and show operations that sorted the numbers
 
 
 Goal #1: sort 5 integers with 12 or less operations (success rate: 100%)
